@@ -1,0 +1,65 @@
+
+
+const styles = StyleSheet.create({
+
+  containerPrincipal: {
+    flex: 1,
+    alignItems: 'center',
+    backgroundColor: '#8CF2B5'
+  },
+  containerTitle: {
+    flexDirection: 'row',
+    marginTop: 40,
+    marginBottom: 20,
+    fontSize: 20,
+    gap: 20,
+    alignContent: 'center',
+    alignItems: 'center',
+    fontSize: 30
+
+  },
+  containProduct: {
+    flexDirection: 'row',
+    marginTop: 20
+  },
+  TextInput: {
+    width: 250,
+    height: 50,
+    backgroundColor: '#0d1b9b4a',
+    borderColor: 'black',
+    borderWidth: 2,
+    borderRadius: 5,
+    fontSize: 14,
+    padding: 15,
+    color: '#FFFFFF',
+
+
+  },
+  button: {
+    marginLeft: 20,
+    justifyContent: 'center'
+  },
+  list: {
+    fontSize: 30
+  },
+  containAddProduct: {
+    width: 400,
+    marginTop: 20,
+  },
+  containOption: {
+    width: 40,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 20
+  },
+  containRecivedProduct: {
+    width: 310,
+    fontSize: 24,
+  },
+  checkbox: {
+    alignSelf: 'center',
+  },
+
+});
+
+export default styles
